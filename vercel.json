@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/fr-fr"
+      "destination": "/fr"
     }
   ],
   "headers": [
