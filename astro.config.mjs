@@ -4,7 +4,7 @@ import vercel from '@astrojs/vercel/serverless';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://vecia.com',
+  site: 'https://vecia-switzerland.vercel.app',
   output: 'hybrid',
   adapter: vercel({
     edgeMiddleware: true,
@@ -13,20 +13,19 @@ export default defineConfig({
     tailwind(),
     sitemap({
       i18n: {
-        defaultLocale: 'fr-fr',
+        defaultLocale: 'fr',
         locales: {
-          'fr-fr': 'fr-FR',
-          'fr-ch': 'fr-CH', 
-          'en-ae': 'en-AE',
+          'fr': 'fr-CH',
+          'en': 'en-CH',
         },
       },
     }),
   ],
   i18n: {
-    defaultLocale: 'fr-fr',
-    locales: ['fr-fr', 'fr-ch', 'en-ae'],
+    defaultLocale: 'fr',
+    locales: ['fr', 'en'],
     routing: {
-      prefixDefaultLocale: true,
+      prefixDefaultLocale: false,
       redirectToDefaultLocale: true,
     },
   },

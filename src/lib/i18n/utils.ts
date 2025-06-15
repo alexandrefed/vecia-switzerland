@@ -1,8 +1,8 @@
 import type { Locale } from './types';
 import { translations } from './translations';
 
-export const locales: Locale[] = ['fr-fr', 'fr-ch', 'en-ae'];
-export const defaultLocale: Locale = 'fr-fr';
+export const locales: Locale[] = ['fr-ch', 'en-ae']; // Using existing locales for Swiss site
+export const defaultLocale: Locale = 'fr-ch';
 
 export function isValidLocale(locale: string): locale is Locale {
   return locales.includes(locale as Locale);

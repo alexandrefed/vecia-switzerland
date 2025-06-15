@@ -1,13 +1,13 @@
-# Vecia Website - Claude Code Context
+# Vecia Switzerland - Claude Code Context
 
 ## Project Overview
-Vecia is an AI automation agency specializing in agentic workflows for modern businesses. This is a multilingual website built with Astro, Tailwind CSS, and deployed on Vercel.
+Vecia Switzerland is the Swiss regional website for an AI automation agency. This bilingual website (French/English) emphasizes precision, privacy, and performance for the Swiss market.
 
 ## Architecture
 - **Framework**: Astro 4.x with TypeScript
 - **Styling**: Tailwind CSS with custom design system
 - **Deployment**: Vercel with edge functions
-- **i18n**: Three locales (fr-FR, fr-CH, en-AE)
+- **i18n**: Two locales (fr-CH, en-CH)
 - **Content**: File-based with content collections
 
 ## Design System
